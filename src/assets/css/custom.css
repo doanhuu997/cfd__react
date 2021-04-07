@@ -1,0 +1,20 @@
+#footer .row {
+
+    display: flex;
+}
+.register-course .wrap label {
+   position: relative;
+}
+p.error_form {
+    position: absolute;
+    width: 100% !important;
+    left: 0;
+    font-size: 12px;
+    color: red;
+    top: 60px;
+    text-align: center;
+}
+.nav ul li a.active
+{
+    background-color: #00afab;
+}

@@ -1,0 +1,8 @@
+export const COUT_INCREMENT = 'INCREMENT'
+export const COUT_DECREMENT = 'DECREMENT'
+export const AUTH_POPUP="AUTH_POPUP"
+export const AUTH_LOGIN="AUTH_LOGIN"
+export const AUTH_LOGOUT="AUTH_LOGOUT"
+export const AUTH_LOGINERROR="AUTH_LOGINERROR"
+
+
