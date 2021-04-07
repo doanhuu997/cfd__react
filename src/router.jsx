@@ -17,6 +17,7 @@ import HistoryPayment from './page/profile/components/historyPayment'
 import Coins from './page/profile/components/coins';
 
 import Page404 from './page/page404'
+import Demo from "./page/demo";
 // import Demo from "./page/demo";
 const routers = [
     {
@@ -58,6 +59,10 @@ const routers = [
             {
                 path: '/team',
                 component: Team,
+            },
+            {
+                path: '/demo',
+                component: Demo,
             },
             {
                 path: '/thong-tin-ca-nhan',
