@@ -44,11 +44,7 @@ export default function Info() {
     async function _save() {
         let error = check();
         if (Object.keys(error).length === 0) {
-            let res = await userApi.updateInfo(form);
 
-            if (res.data) {
-                updateInfo(res.data)
-            }
 
         }
     }

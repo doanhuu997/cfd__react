@@ -1,12 +1,8 @@
 import React, { useState,useEffect } from 'react';
-import userApi from '../../../api/userApi';
+
 
 export default function MyCourse() {
-let [course,setCourse]=useState()
-useEffect( async() => {
-    let res=await userApi.course()
-}, [])
-if(!course) return "Loading ......."
+
     return (
         <div className="tab2" >
             <div className="item">

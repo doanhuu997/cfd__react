@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 let $ =window.$
 function Testimonial({ review }) {
     let listRef=useRef()
+    console.log(review)
     useEffect(()=>{
         var $carousel = $(".section-testimonial .images .list").flickity({
             contain: true,

@@ -13,7 +13,7 @@ export default function Page404() {
         }
     }, [])
     return (
-        <main className="notfound" id="main">
+        <main className="notfound" id="main" >
             <div className="container">
                 <section>
                     <h2 className="main-title">404</h2>

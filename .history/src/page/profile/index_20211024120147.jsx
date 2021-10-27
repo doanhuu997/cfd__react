@@ -31,7 +31,7 @@ export default function Profile({ children }) {
                             <NavLink to={`${url}/coins`} >Quản lý COIN của tôi </NavLink>
                         </div>
                         <div className="tab-content">
-                            {children}
+                            {/* {children} */}
                         </div>
                     </div>
                 </div>

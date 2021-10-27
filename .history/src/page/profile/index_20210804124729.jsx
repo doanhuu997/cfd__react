@@ -1,13 +1,13 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { useRouteMatch } from 'react-router'
-import { NavLink } from 'react-router-dom'
+import {useRouteMatch} from 'react-router'
+import {NavLink} from 'react-router-dom'
 // import useAuth from '../../core/useAuth';
 
-export default function Profile({ children }) {
-    let { url } = useRouteMatch()
-    let { user } = useSelector(state => state.auth);
-
+export default function Profile({children}) {
+    let {url}=useRouteMatch()
+    let {user} =useSelector(state => state.auth);
+  
     return (
 
         <main className="profile" id="main">
@@ -37,6 +37,6 @@ export default function Profile({ children }) {
                 </div>
             </section>
         </main>
-
+    
     );
 }

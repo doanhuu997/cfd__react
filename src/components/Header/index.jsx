@@ -30,7 +30,7 @@ function Header() {
                     <span className="text">menu</span>
                 </div>
                 <NavLink  onClick={linkLoading}  to="/" className="logo">
-                    <img src="../img/logo.svg" alt="" />
+                    <img src="%PUBLIC_URL%/img/logo.svg" alt="" />
                     <h1>CFD</h1>
                 </NavLink>
                 <div className="right">
@@ -41,7 +41,7 @@ function Header() {
                             <a href="#" className="info">
                                 <div className="name">{user.name}</div>
                                 <div className="avatar">
-                                    <img src="../img/avt.png" alt="" />
+                                    <img src="./img/avt.png" alt="" />
                                 </div>
                             </a>
                         </div>
